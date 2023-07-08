@@ -1,0 +1,24 @@
+.btn {
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    background: $color__primary;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    color: $color__white;
+
+    &:hover {
+        background: $color__primaryMutted;
+        color: $color__primary;
+    }
+}
+
+.btn>.svg-icon {
+    fill: $color__white;
+    width: 24px;
+    height: 24px;
+}

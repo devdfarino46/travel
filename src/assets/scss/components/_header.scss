@@ -1,0 +1,28 @@
+.header {
+    background: url("../img/background/header-bg.webp"), lightgray 50% / cover no-repeat;
+    border-radius: 0px 0px 64px 64px;
+    color: $color__white;
+}
+
+.header__container {
+    margin-top: 80px;
+}
+
+.header__cta {
+    padding: 184px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.header__cta-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.header__cta-btn>.svg-icon {
+    fill: $color__primary;
+}

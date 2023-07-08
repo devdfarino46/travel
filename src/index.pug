@@ -10,5 +10,41 @@ html(lang="en")
         script(src="libs/js/jquery-3.7.0.min.js")
         title Travel 
     body 
+        nav.nav
+            .nav__container.container
+                a.logo(href="#") 
+                    +svgIcon('logo-text', 'logo__text')
+                    +svgIcon('logo-icon', 'logo__icon')
+                ul.nav__list
+                    li.nav__item
+                        a(href="#") home
+                    li.nav__item
+                        a(href="#") hotels
+                    li.nav__item
+                        a(href="#") restaurants
+                    li.nav__item
+                        a(href="#") tours
+                    li.nav__item
+                        a(href="#") destinations
+                    li.nav__item
+                        a(href="#") activities
+                    li.nav__item
+                        a(href="#") contact
+
+                .nav__user
+                    .nav__user-data
+                        p.nav__user-nick Holla,
+                        p.nav__user-name Ales Nesetril
+                    a.nav__user-avatar(href="#") 
+                        img(src="assets/img/avatar.webp", alt="", width="48", height="48")
+                        .nav__user-notification-dot
+        
+        header.header
+            .header__container
+                .header__cta
+                    h1.header__cta-title Discover the most engaging places
+                    button.header__cta-btn.btn-icon-left.btn-primary.btn
+                        +svgIcon('web')
+                        span Discover on 3D Globe
 
         script(src="assets/js/main.min.js")

@@ -1,5 +1,6 @@
 @import 'base/vars';
 @import 'base/reset';
+@import 'base/colors';
 
 * {
     font-family: 'Poppins';
@@ -9,10 +10,31 @@ body {
     
 }
 
-
-
 .container {
     max-width: $containerWidth;
     margin: 0 auto;
     padding: 0 $containerPadding;
 }
+
+.logo {
+    display: flex;
+    gap: 4px;
+}
+
+.logo__text {
+    display: flex;
+    padding: 8px 0px;
+    width: 67.574px;
+    height: 19.416px;
+    fill: $color__white;
+}
+
+.logo__icon {
+    width: 16px;
+    height: 16px;
+    fill: $color__primary;
+}
+
+@import 'components/btn';
+@import 'components/nav';
+@import 'components/header';
