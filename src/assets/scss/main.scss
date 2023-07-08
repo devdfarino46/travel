@@ -1,0 +1,18 @@
+@import 'base/vars';
+@import 'base/reset';
+
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    
+}
+
+
+
+.container {
+    max-width: $containerWidth;
+    margin: 0 auto;
+    padding: 0 $containerPadding;
+}

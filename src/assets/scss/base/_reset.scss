@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex: 0 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: inherit;
+}
+
+span {
+    color: inherit;
+    font-weight: inherit;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.svg-icon {
+    fill: inherit;
+    stroke: inherit;
+    width: 32px;
+    height: 32px;
+}
+
+// Fix jquery mobile bug
+body > .ui-loader.ui-corner-all.ui-loader-default.ui-body-a {
+    display: none;
+}
